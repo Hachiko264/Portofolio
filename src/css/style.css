@@ -1,0 +1,78 @@
+/*import partials here*/
+
+* {
+	background-color: #2b2b2b;
+	font-family: "Segoe UI","Helvetica Neue",Roboto, "Noto Sans",sans-serif;
+}
+
+.container {
+	padding-top: 40px;
+}
+
+.layout {
+	width: 100%;
+	max-width: 800px;
+	padding: 30px;
+	background: #2b2b2b;
+	margin: 0 auto;
+}
+
+.error {
+	color: red;
+}
+
+h1, p {
+	color: white;
+	background-color: #2b2b2b;
+	padding:20px;
+	margin: 10px 0 0 0 auto;
+	border: 1px solid white;
+}
+
+h1 {
+	margin-bottom: 20px;
+	font-weight: bold;
+	
+}
+
+img {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */    
+   -webkit-filter: grayscale(100%);
+   -moz-filter: grayscale(100%);
+   -ms-filter: grayscale(100%);
+   filter: grayscale(100%);
+   filter: gray; /* IE 6-9 */
+}
+
+img:hover {
+   -webkit-filter: none;
+   -moz-filter: none;
+   -ms-filter: none;
+   filter: none;
+}
+
+
+.detail-image {
+
+}
+
+.d-inline-block {
+	width: 30px;
+	height: 30px;
+	margin-right: 15px;
+}
+
+.navbar-header .navbar-brand {
+  height: 100px;
+}
+
+.footer
+{
+  background-color: #2b2b2b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+  text-align: right;
+}
+
